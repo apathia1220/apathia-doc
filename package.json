@@ -1,0 +1,23 @@
+{
+  "name": "apathia-docs",
+  "version": "1.0.0",
+  "description": "apathia component docs",
+  "author": "xzc01",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vitepress dev docs --port 8080",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs --port 8080"
+  },
+  "dependencies": {
+    "@apathia/apathia": "^0.0.9",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@apathia/vitepress-theme": "^0.0.2",
+    "@vitejs/plugin-vue": "1.4.0",
+    "@vue/compiler-sfc": "^3.0.11",
+    "vitepress": "0.16.1"
+  }
+}
