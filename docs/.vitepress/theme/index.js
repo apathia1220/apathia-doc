@@ -7,10 +7,12 @@ import { setupApathiaTwindTheme } from '@apathia/apathia'
 // import { setupApathiaTwindTheme } from '../../../packages/twind/src/index'
 // import  * as apathia from '../../../packages/apathia'
 import { toastInstall, modalInstall } from '@apathia/apathia'
+import Layout from './Layout.vue'
 
 // const { toastInstall, modalInstall } = apathia
 
 export default {
+  Layout,
   ...Theme,
   enhanceApp({ app }) {
     registerComponents(app)

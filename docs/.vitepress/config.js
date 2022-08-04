@@ -68,7 +68,7 @@ module.exports = {
   },
 
   themeConfig: {
-    repo: 'https://git.bilibili.co/mng-components/helm',
+    repo: 'https://github.com/apathia1220/apathia-doc',
     docsDir: 'docs',
     logo: './icon.svg',
 
