@@ -58,8 +58,6 @@ module.exports = {
   lang: 'zh-CN',
   title: 'Apathia',
   description: 'Vite & Vue powered static site generator.',
-
-  base: './',
  
   markdown: {
     config: (md) => {
