@@ -59,7 +59,7 @@ module.exports = {
   title: 'Apathia',
   description: 'Vite & Vue powered static site generator.',
 
-  base: './',
+  base: '/apathia-doc/',
  
   markdown: {
     config: (md) => {
@@ -100,7 +100,7 @@ module.exports = {
       '/introduction': getIntroductionSidebar(),
       '/component': generatePathsFromDir(path.resolve(__dirname, '../component'), '/component'),
       // '/hook': generatePathsFromDir(path.resolve(__dirname, '../hook'), '/hook'),
-      '/': getIntroductionSidebar(),
+      // '/': getIntroductionSidebar(),
     }
   }
 }

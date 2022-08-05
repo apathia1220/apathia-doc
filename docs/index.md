@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: 。/icon.svg
+heroImage: ./icon.svg
 actionText: Get Started
 actionLink: /introduction/
 
