@@ -24,7 +24,7 @@ const getIntroductionSidebar = () => {
     {
       text: '快速上手',
       children: [
-        { text: '介绍', link: '/' },
+        { text: '介绍', link: '/introduction/' },
         { text: '安装', link: '/introduction/install' },
       ]
     },
@@ -58,6 +58,7 @@ module.exports = {
   lang: 'zh-CN',
   title: 'Apathia',
   description: 'Vite & Vue powered static site generator.',
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: 'icon.png' }]],
 
   base: '/apathia-doc/',
  
@@ -70,9 +71,9 @@ module.exports = {
   },
 
   themeConfig: {
-    repo: 'https://github.com/apathia1220/apathia-doc',
+    repo: 'https://github.com/apathia1220/apathia-vue',
     docsDir: 'docs',
-    logo: './icon.svg',
+    logo: './icon.png',
 
     editLinks: true,
     editLinkText: 'Edit this page on Github',
@@ -100,7 +101,7 @@ module.exports = {
       '/introduction': getIntroductionSidebar(),
       '/component': generatePathsFromDir(path.resolve(__dirname, '../component'), '/component'),
       // '/hook': generatePathsFromDir(path.resolve(__dirname, '../hook'), '/hook'),
-      // '/': getIntroductionSidebar(),
+      '/': getIntroductionSidebar(),
     }
   }
 }

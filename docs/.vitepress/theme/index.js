@@ -7,6 +7,7 @@ import { setupApathiaTwindTheme } from '@apathia/apathia'
 // import { setupApathiaTwindTheme } from '../../../packages/twind/src/index'
 // import  * as apathia from '../../../packages/apathia'
 import { toastInstall, modalInstall } from '@apathia/apathia'
+import './resetcss/color.css'
 
 // const { toastInstall, modalInstall } = apathia
 
