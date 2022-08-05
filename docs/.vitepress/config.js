@@ -59,7 +59,7 @@ module.exports = {
   title: 'Apathia',
   description: 'Vite & Vue powered static site generator.',
 
-  base: '/apathia-docs/',
+  base: './',
  
   markdown: {
     config: (md) => {
