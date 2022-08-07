@@ -23,15 +23,16 @@ const getIntroductionSidebar = () => {
   return [
     {
       text: '快速上手',
+      collapsible: true,
       children: [
         { text: '介绍', link: '/introduction/' },
         { text: '安装', link: '/introduction/install' },
       ]
     },
-    {
-      text: '组件',
-      link: '/component/Button'
-    },
+    // {
+    //   text: '组件',
+    //   link: '/component/Button'
+    // },
     // {
     //   text: 'Hooks',
     //   link: '/hook/index'
@@ -56,8 +57,8 @@ const generatePathsFromDir = (dirPath, prefix) => {
 
 module.exports = {
   lang: 'zh-CN',
-  title: 'Apathia',
-  description: 'Vite & Vue powered static site generator.',
+  title: 'Apathia Component',
+  description: '基于vue3 + typescript + twind 的vue组件库',
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: 'icon.png' }]],
 
   base: '/apathia-doc/',
@@ -65,7 +66,6 @@ module.exports = {
   markdown: {
     config: (md) => {
       const { demoBlockPlugin } = require('@apathia/vitepress-theme')
-      // const { demoBlockPlugin } = require('vitepress-theme-demoblock')
       md.use(demoBlockPlugin)
     }
   },
@@ -90,18 +90,17 @@ module.exports = {
         link: '/component/Button',
         activeMatch: '^/component'
       },
-      // {
-      //   text: 'Hook',
-      //   link: '/hook/index',
-      //   activeMatch: '^/hook'
-      // }
+      {
+        text: 'Hook',
+        link: '/hook/index',
+        activeMatch: '^/hook'
+      }
     ],
 
     sidebar: {
       '/introduction': getIntroductionSidebar(),
       '/component': generatePathsFromDir(path.resolve(__dirname, '../component'), '/component'),
-      // '/hook': generatePathsFromDir(path.resolve(__dirname, '../hook'), '/hook'),
-      '/': getIntroductionSidebar(),
+      '/hook': generatePathsFromDir(path.resolve(__dirname, '../hook'), '/hook')
     }
   }
 }
