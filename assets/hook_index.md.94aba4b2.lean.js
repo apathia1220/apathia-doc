@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,e}from"./app.7c55712e.js";const u='{"title":"hooks","description":"","frontmatter":{},"headers":[],"relativePath":"hook/index.md"}',o={},t=e("",7),p=[t];function c(i,r,d,h,l,_){return n(),s("div",null,p)}var f=a(o,[["render",c]]);export{u as __pageData,f as default};
