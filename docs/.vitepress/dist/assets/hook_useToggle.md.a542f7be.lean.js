@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,e as t}from"./app.7c55712e.js";const g='{"title":"useToggle","description":"","frontmatter":{},"headers":[],"relativePath":"hook/useToggle.md"}',e={},o=t("",2),p=[o];function c(l,u,i,r,k,_){return a(),s("div",null,p)}var f=n(e,[["render",c]]);export{g as __pageData,f as default};
