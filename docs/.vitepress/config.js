@@ -29,20 +29,13 @@ const getIntroductionSidebar = () => {
         { text: '安装', link: '/introduction/install' },
       ]
     },
-    // {
-    //   text: '组件',
-    //   link: '/component/Button'
-    // },
-    // {
-    //   text: 'Hooks',
-    //   link: '/hook/index'
-    // }
   ]
 }
 
 const generatePathsFromDir = (dirPath, prefix) => {
   const mds = fs.readdirSync(dirPath)
-  return mds.filter(md => md !== 'index.md').map((md) => {
+  let result = [{text: '快速上手', link: `${prefix}/index`}]
+  const temp = mds.filter(md => md !== 'index.md').map((md) => {
     const [name, ext] = md.split('.')
     let fullName = name
     if(nameMap[name]) {
@@ -53,6 +46,7 @@ const generatePathsFromDir = (dirPath, prefix) => {
       link: `${prefix}/${name}`
     }
   })
+  return [...result, ...temp]
 }
 
 module.exports = {
@@ -87,7 +81,7 @@ module.exports = {
       },
       {
         text: '组件',
-        link: '/component/Button',
+        link: '/component/index',
         activeMatch: '^/component'
       },
       {
