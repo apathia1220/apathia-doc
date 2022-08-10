@@ -11,12 +11,14 @@
     "docs:serve": "vitepress serve docs --port 8080"
   },
   "dependencies": {
-    "@apathia/apathia": "^0.0.10",
+    "@apathia/apathia": "^0.0.12",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@apathia/vitepress-theme": "^0.0.2",
     "@vitejs/plugin-vue": "1.4.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "@vue/babel-plugin-jsx": "^1.1.1",
     "@vue/compiler-sfc": "^3.0.11",
     "vitepress": "0.22.3"
   }

@@ -1,14 +1,14 @@
 <template>
-  <CustomRender :render="titleRender" :m="3" n="abc" />
+  <CustomRender :render="titleRender" custom="custom render"/>
 </template>
 
-<script lang="jsx">
+<script>
 import { h } from 'vue'
 
 export default {
   setup() {
-    const titleRender = ({ m, n }) =>
-      h('h1', {}, `content render with render function ${m}${n}`)
+    const titleRender = ({ custom }) =>
+      h('h1', {}, `自定义渲染函数 - 参数为：${custom}`)
 
     return {
       titleRender,

@@ -1,9 +1,9 @@
 <template>
-  <Collapse>
+  <Collapse :expand="false">
     <template #toggleHeader="{ show, toggleShow }">
-      <div style="display: flex; justify-content: flex-end">
+      <div>
         <BaseButton secondary @click="toggleShow()"
-          >是否展开{{ show }}</BaseButton
+          >点击切换展开状态</BaseButton
         >
       </div>
     </template>

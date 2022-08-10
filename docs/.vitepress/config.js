@@ -8,6 +8,7 @@ const nameMap = {
   'Confirm': '确认框',
   'CustomRender': '自定义渲染',
   'Form': '表单',
+  'Icon': '图标',
   'Input': '输入框',
   'Modal': '模态窗',
   'Pagination': '分页',

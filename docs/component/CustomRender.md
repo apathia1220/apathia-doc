@@ -1,40 +1,51 @@
-# CustomRender
+# CustomRender 自定义渲染
 
-自定义渲染
+自定义渲染，可自定义渲染  `h函数`  `JSX` 等
 
 ## 基础用法
 
-as 修改标签
+自定义渲染的 `Html` 标签
+::: tip as 自定义
+可以通过 `as` 指定 `html` 的标签进行渲染
+::: 
 :::demo
 
 <<< @/../Demos/custom-render/Basic.vue
 
 :::
 
-## 自定义render
-
+## 自定义 render 函数
+::: tip render 函数
+可以通过给 `render` 属性传入 `h函数` 的方式，进行渲染
+:::
 :::demo
 
 <<< @/../Demos/custom-render/Render.vue
 
 :::
 
+<!-- ## 自定义 JSX
+::: tip JSX
+可以通过给 `render` 属性传入一个返回值为 `JSX` 的函数进行渲染
+:::
+:::demo
+
+<<< @/../Demos/custom-render/JSXRender.vue
+
+::: -->
+
 ## 使用as指定组件
 
+::: demo
 <<< @/../Demos/custom-render/As.vue
 
+:::
 ## props
 
 | 参数 |  类型   | 是否必传 |   说明       | 默认值 |
 | ---- | ------ | ----- | ------------- | ----- |
-| offset-top | number | 否 | 距离顶部的距离 | 0 |
-| offset-bottom | number | 否 | 距离底部的距离 | - |
-
-## events
-
-| 事件名称 |  说明   | 回调参数 |
-| ---- | ------ | ----- |
-| change | 当固定状态改变时触发 | true/false |
+| render | RenderCustom | 否 | 自定义渲染函数，可以是字符串或者渲染函数 | - |
+| as | VNodeType | 否 | 指定渲染标签或者组件 | - |
 
 ## slots
 

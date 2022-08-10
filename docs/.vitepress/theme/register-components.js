@@ -1,13 +1,8 @@
 import Demo from '@apathia/vitepress-theme/components/Demo.vue'
 import DemoBlock from '@apathia/vitepress-theme/components/DemoBlock.vue'
 
-// import Demo from 'vitepress-theme-demoblock/components/Demo.vue'
-// import DemoBlock from 'vitepress-theme-demoblock/components/DemoBlock.vue'
-
-// import { tw, apply, css } from '@apathia/apathia.twind'
 import { tw, apply, css} from '@apathia/apathia'
 
-// import * as comp from '../../../packages/apathia/src/export.ts'
 import * as comp from '@apathia/apathia'
 
 export function registerComponents(app) {
