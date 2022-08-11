@@ -1,17 +1,29 @@
-# confirm
+# Confirm 确认框
 
-确认框
-
+在`modal`的基础上，快速实现确认功能
 ## 基础用法
 
-确认框的基础用法 useConfirm
+::: tip 用法
+使用需要全局注册使用 `modalInstall` 方法
+```js
+import { modalInstall } from '@apathia/apathia'
+app.use(modalInstall)
+```
+使用` useConfirm `方法实现
+:::
 :::demo
 
 <<< @/../Demos/confirm/Basic.vue
 
 :::
 
-## props
+## 自定义 footer 
+可以通过` renderFooter `的方式来实现自定义 footer 
+::: demo
+<<< @/../Demos/confirm/Custom.vue
+:::
+
+## Confirm Props
 
 | prop      |     说明     |           类型 | 默认值 |
 | --------- | :----------: | -------------: | -----: |

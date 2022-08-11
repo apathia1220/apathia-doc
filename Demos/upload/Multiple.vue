@@ -2,7 +2,7 @@
   <Upload
     v-model="file2s"
     :multiple="true"
-    action="/x/admin/creative/material/upload"
+    action="/upload/path"
     :resolve-url="resolveLocation"
   />
 </template>

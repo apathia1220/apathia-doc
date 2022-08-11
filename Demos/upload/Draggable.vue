@@ -3,7 +3,7 @@
     v-model="file4s"
     :draggable="true"
     :multiple="true"
-    action="/x/admin/creative/material/upload"
+    action="/upload/path"
     :resolve-url="resolveLocation"
   />
 </template>

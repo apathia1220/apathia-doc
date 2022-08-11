@@ -1,7 +1,7 @@
 <template>
   <Upload
     v-model="file1"
-    action="/x/admin/creative/material/upload"
+    action="/upload/path"
     :resolve-url="resolveLocation"
   />
 </template>
