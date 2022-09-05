@@ -8,6 +8,7 @@
       <BaseButton danger>danger</BaseButton>
       <BaseButton info>info</BaseButton>
       <BaseButton warning>warning</BaseButton>
+      <BaseButton pink>pink</BaseButton>
       <BaseButton>中文</BaseButton>
     </FormItem>
     <FormItem>
@@ -18,6 +19,7 @@
       <BaseButton danger plain>danger</BaseButton>
       <BaseButton info plain>info</BaseButton>
       <BaseButton warning plain>warning</BaseButton>
+      <BaseButton pink plain>pink</BaseButton>
     </FormItem>
     <FormItem>
       <BaseButton round>default</BaseButton>
@@ -27,6 +29,7 @@
       <BaseButton danger round>danger</BaseButton>
       <BaseButton info round>info</BaseButton>
       <BaseButton warning round>warning</BaseButton>
+      <BaseButton pink round>pink</BaseButton>
     </FormItem>
   </Form>
 </template>

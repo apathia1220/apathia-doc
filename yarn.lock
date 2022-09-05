@@ -133,206 +133,206 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@apathia/apathia.alert@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.alert/-/apathia.alert-1.0.1.tgz#35745cb32c4f61107c515508697d0b4fc00ae006"
-  integrity sha512-yBe5gn2NJH0J0hRxsegsdbukiH5gdyIB8aB4mwButOI7qnWcZdYYlGLtmtdLeY1T1EbaSgewCCkb9XUvqHitqQ==
+"@apathia/apathia.alert@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.alert/-/apathia.alert-1.0.2.tgz#4f5b67ff2a62ecbf9ed0f8fe2b200544e8bb55cb"
+  integrity sha512-Qp4l8c1GsE4JWiMCFT02wHm+DAghJFkYgQtnLYHW/QbeS58cGlJGBYuG1CCJjRZ7N+xb8gP4sWRxQL6AYlT3gQ==
   dependencies:
-    "@apathia/apathia.custom-render" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.button@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.button/-/apathia.button-1.0.1.tgz#df4def1bb2316f6b3fdbc4b7d5906b9ffdb47ed6"
-  integrity sha512-371NJxMnhK1w8iAc4Qb0hb5HXkr9+wJ1KZUXBdT0GK248Z9DJydQ9ifC1j5NsINq2L3vgMReZswV+Y5H3tvVrg==
+"@apathia/apathia.button@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.button/-/apathia.button-1.0.2.tgz#21c2e964e7c05d52e654dc704f4c116f6eb78341"
+  integrity sha512-2Q9/s0qcXzNc5hKwmt+V615rIhwCMFgaJ3mKwm0ykVvsEKU2rf7ulY1x5oxDCuG3zvo/u5K1W0/jE9f9l41l1A==
   dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.checkbox@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.checkbox/-/apathia.checkbox-1.0.1.tgz#6593b4a02c0a1df6984758af8cf78e31308cf52c"
-  integrity sha512-YRl1simCmJuRVvkm5AWnbuhyNHIEgyYcUG7Ax3lPkiodJ9QOEUxvyitdqfjDwnPxPOLkW1DASicxzDhTJ7ujnA==
+"@apathia/apathia.checkbox@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.checkbox/-/apathia.checkbox-1.0.2.tgz#08f2349ca7771ec4fa5daa32a2988d09bb6489db"
+  integrity sha512-PUwdQUY269roIc6KQfLIaYciFCOiD1IDlEMh3Q6L4sUVTKlDOPZZ0Feca7loC8ICN1n4E47FdEPu/nj3HypORw==
   dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.collapse@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.collapse/-/apathia.collapse-1.0.1.tgz#e773b01d0cf5b67bff55eec9e964204dcf7f1804"
-  integrity sha512-8qIQmQ7if8hmnNT8eyIhzt06ls4r/cvGjYyn2WPz9YvWoRpU15pHzZYOQ7qm3Y2pnbqRQTwur0dDzE2/IuWi2g==
+"@apathia/apathia.collapse@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.collapse/-/apathia.collapse-1.0.2.tgz#1be3983505341d952f0d72ffd8b097a77dd53d8b"
+  integrity sha512-xg9dgaFL5+TQqGRfsnGBg+lKAfo0GLYsVbCbZPXoAcBw9NDH+6enmZLQG+kzdCZGKgflrJnkqA4GNIdxeDhuHg==
   dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.confirm@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.confirm/-/apathia.confirm-1.0.1.tgz#137a1bea2f66df5c67607f5bff37b5d9ffa1c26b"
-  integrity sha512-GO7KWS+Bg+uyc1olf6oWkkr8lXlYJ9RAGw5je5I4YCvB8DfxGB+re3FW/Vv3y8zMu8/S/9cKgDHHqapJph0XyQ==
+"@apathia/apathia.confirm@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.confirm/-/apathia.confirm-1.0.2.tgz#b73165310e65568b26caa2977498d1b3d9962eb8"
+  integrity sha512-EBjKlaYuuchpvJBKwnH5G6JnM4kYRsTxLoKRJ/Q9HdJYzc0yDRhJtkPN10A/7ndIqTOXb5PaS+GW/kx0IjeCVw==
   dependencies:
-    "@apathia/apathia.button" "^1.0.1"
-    "@apathia/apathia.custom-render" "^1.0.1"
-    "@apathia/apathia.modal" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.button" "^1.0.2"
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.modal" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.custom-render@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.custom-render/-/apathia.custom-render-1.0.1.tgz#ebdeb63e48a3a2ef18e873664f0ff0c65627b547"
-  integrity sha512-3waN8/KfcDvNEa8ZiMEViWEFzbhxo/XDEF41ojws9TUoc0jB3fPGrwgp8GxuVLl2PPrLrWYvtKJKft6MSIvIkA==
+"@apathia/apathia.custom-render@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.custom-render/-/apathia.custom-render-1.0.2.tgz#075bf1684583fcdc0807a493d72b131b7f7d00d4"
+  integrity sha512-40uVoxDmJq3j+QEyMT6S/smLHAo0j56ndTJLf0mdltGE8tV5yVhJ+jTVsSy76G6DGZ53aM2wwCbKxtk1QLE8zQ==
 
-"@apathia/apathia.form@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.form/-/apathia.form-1.0.1.tgz#ef7c1b0b1ab9d382af4f6789c1e5fe48d7de0db3"
-  integrity sha512-YaVD6vOZP2e6IKWelEr1R5Rhjq/KXSZ39CauhQKDeM0HNQUR6sG8rBH753QaX2H85/o3OVbbD5c9DqjPckEm7Q==
+"@apathia/apathia.form@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.form/-/apathia.form-1.0.2.tgz#585e5f7dba309a0f57d4f9ac61760d78ce66df3c"
+  integrity sha512-/CsND0DuxZDR9Tvhdi/sdxsfc2ZnjkPchIyWKmVd3Qax0N/YGZpIo/8OVHrbcOJh0ne6W1BRY4RaMSZpzNuw5g==
   dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
 
-"@apathia/apathia.hooks@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.hooks/-/apathia.hooks-1.0.1.tgz#ddbab51082381f3079bd4fdcc1e3ddaa4aafb8fb"
-  integrity sha512-hBaFcsvHCiCHT3xxGFCsb26Jqoll2LYphvHP0VBmPm9kIyvdJiLF9J+fF2BvNL6VLvoogTWkMxzF2ayP1CGdNg==
+"@apathia/apathia.hooks@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.hooks/-/apathia.hooks-1.0.2.tgz#a2bc3fcdbe32231e03d3789d8eb36f47fd1a4cf9"
+  integrity sha512-qyGrx0EFsOQb7HPdIZxtOX5izYmLYNf4S+1IWrqC2/SV66ieQPJsb9mdl8PhF8IBZLuZtSyKZrmGFXL7d7/GvA==
   dependencies:
-    "@apathia/apathia.shared" "^1.0.1"
+    "@apathia/apathia.shared" "^1.0.2"
 
-"@apathia/apathia.icon@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.icon/-/apathia.icon-1.0.1.tgz#658b12b30ced4539906552cbef5b261c1d0a98ed"
-  integrity sha512-WSCv3kzAPXHCay1aMJnaMmRH5BtXRkxKvLKHK6QH4FuVub6EJWlgz6lzg9oJI6wTJC+ChtCfxycOhzjXv/gK0A==
+"@apathia/apathia.icon@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.icon/-/apathia.icon-1.0.2.tgz#006a6c81dd6309939517877fb753553b2e25cac2"
+  integrity sha512-HamdeN0G3hoJ378gZ1qpybk52n/jNPdvKxvS0kmPH1Hio/EQ7h0ulZKHZwvQ0SUuK7TSmtQq2piYGlwI5FOWSQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.35"
     "@fortawesome/free-regular-svg-icons" "^5.15.3"
     "@fortawesome/free-solid-svg-icons" "^5.15.3"
     "@fortawesome/vue-fontawesome" "^3.0.0-3"
 
-"@apathia/apathia.input@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.input/-/apathia.input-1.0.1.tgz#475e11454ad1c6ce7897eec033d5ce258afdaabc"
-  integrity sha512-iYGTpG/6rVec0EOQSX7BeeoBKI3b4KBBETfFfodXRQPLHOZgbdtUKOykMgcetUSW0X9eEhPOEkoeEkftiRpnZA==
+"@apathia/apathia.input@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.input/-/apathia.input-1.0.2.tgz#6198716cce46d4e7e48f54989696763c31884c60"
+  integrity sha512-nZul4OtrIxszeLGdZ3JQQcRzz5tuXaL9X1hDYz6MdIPyC3KxXzNX4YGF/xyfTSKOi/VszKUE3k8A0wd6ZW0XFA==
   dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
     string-width "4.2.3"
 
-"@apathia/apathia.loading@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.loading/-/apathia.loading-1.0.1.tgz#6bd7f11d068d0651bf7ee0ede48d760c885de139"
-  integrity sha512-ZCBUuB7FEU8ov7mLWKjr//wOUr1XHQIc6F8mxOU6CYRNu3gH1T0v6A15UopmH3MUCf0IgToCfYzwEVvcyLfn9g==
-  dependencies:
-    "@apathia/apathia.twind" "^1.0.1"
-
-"@apathia/apathia.modal@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.modal/-/apathia.modal-1.0.1.tgz#143ba2a9c01a6eb7313ed444bd6ed6fdd02c60f4"
-  integrity sha512-j16GloK4C0oVpLLUJoLtxUmD9Yknyh6P8teSVB8lxPgw6pB7MJ7RSMzBbSCbxtXDf9MdOJGC27vZVIXpyWPm9A==
-  dependencies:
-    "@apathia/apathia.custom-render" "^1.0.1"
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
-    lodash "^4.17.21"
-
-"@apathia/apathia.pagination@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.pagination/-/apathia.pagination-1.0.1.tgz#66ec14681c9245c06848b94be21d9b2ebf22b468"
-  integrity sha512-UDe5a27e4B2cuTEg1tByGBpKXkyEJTeF51JESnB91RMVrp1uQmuRmOGny0s+dlohgAKa87yleM4av2egIOMFyg==
-  dependencies:
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
-
-"@apathia/apathia.radio@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.radio/-/apathia.radio-1.0.1.tgz#68de99d3921b29b66ec871cee2aec3c5dda0d59e"
-  integrity sha512-Rvke4ECtInm6Q81/l0J0VeKUaYPl+FTNYsmuPYWVuKIGLWIGztatE5oPJxyBpYhoAYtZSL3nDfIp392cqQB3cQ==
-  dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
-    lodash "^4.17.21"
-
-"@apathia/apathia.select@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.select/-/apathia.select-1.0.1.tgz#b2b4b934ec5def09f9b187261119824bb562835d"
-  integrity sha512-UwQCr40m6MVZ7tPzwGKVdR765jHz4N7p8yfJUPxPl5qzncBBYrqHVYC97GFS5vLn6VFuOIw48trOR4NRpf90Dw==
-  dependencies:
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
-    lodash "^4.17.21"
-
-"@apathia/apathia.shared@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.shared/-/apathia.shared-1.0.1.tgz#22d86a9e2448610998128bc0c44c4829879c735f"
-  integrity sha512-4cD76BLpJrBk9qvgfkYqLDvetP3kKZbsqjWyUcOwdBl2+DV/qRz3mbRkkvSFxfA7rj2rgr5xcvHjKG6jeolXPg==
-  dependencies:
-    "@apathia/apathia.twind" "^1.0.1"
-    lodash "^4.17.21"
-
-"@apathia/apathia.table@^1.0.2":
+"@apathia/apathia.loading@^1.0.2":
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.table/-/apathia.table-1.0.2.tgz#2fb02b2559965acc28e217bab82f367f406eceea"
-  integrity sha512-59Zr3RwGG7Zf2pOvStOLDN9HIoHjWfr85hlRUGPxNehwOLQgcDvp+TjqETAu+Uw8KA2d0IhtlfSuNEkUIZD/BA==
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.loading/-/apathia.loading-1.0.2.tgz#a2b51b1541f18b5f74a4fec34bc0b726919b90d2"
+  integrity sha512-A11D0dn7yChsS4P5PLf+YpqnYa3prgz+Hq3zCoChZeb1i+nnUgpnvsgEWLRJo29yGUBpxL8ZekCJI6U+Gu7Abw==
   dependencies:
-    "@apathia/apathia.button" "^1.0.1"
-    "@apathia/apathia.checkbox" "^1.0.1"
-    "@apathia/apathia.custom-render" "^1.0.1"
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.loading" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.twind" "^1.0.2"
+
+"@apathia/apathia.modal@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.modal/-/apathia.modal-1.0.2.tgz#f302a91ec04abdf5ac20b4007abf63fdf82d94ad"
+  integrity sha512-pbwcrZTHJV5L5PCILQPKrFOkUB+OqqCjIpir33eRubWEj0B9uaQTp1HYGJk/mLbU5srg8M9lloazgcnt1bgeow==
+  dependencies:
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
     lodash "^4.17.21"
 
-"@apathia/apathia.twind@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.twind/-/apathia.twind-1.0.1.tgz#1a6d8d379dac5bcfdad158222d64a60c93e8f57f"
-  integrity sha512-1ePDXW3w6YkIBvaU2sD7mnvR+FlkYOfa426fZIlHBT8YpqKYkyU7BbsT/LWlE2OGHlccnaNdrd5OCyGqN3D/Aw==
+"@apathia/apathia.pagination@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.pagination/-/apathia.pagination-1.0.2.tgz#be9d5d1b7899c93ea176c417968342c19a715350"
+  integrity sha512-yy9h8TSANLOHzO+uaZ3kPR6Oensc3J7SP722qmjDns56P9Gfu7ks3un4oWy/Qm+wj4g+6tX/iZ4Nkb0/ejTROQ==
+  dependencies:
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
+
+"@apathia/apathia.radio@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.radio/-/apathia.radio-1.0.2.tgz#d9ee82ff20aad3ef61823f93747cc0670ba6121d"
+  integrity sha512-zDVvbt28Ax2EyOt1gdtcYGooNR15shgLu9zjoRLXjXxe8ayqZ98cNk7SNZhQUft/Rfn5ZXtdmZzzHzpcsz/6bw==
+  dependencies:
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
+    lodash "^4.17.21"
+
+"@apathia/apathia.select@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.select/-/apathia.select-1.0.2.tgz#171f5b8269c2eb21f96240cc65a442d95e0fe5bf"
+  integrity sha512-4f0sM3ybx4fXXSi/cPg2oAXExMNs/Z0nqFxBfQ1K3nk2iyirL94braET9H3RIzo8J82dhn0sVkCCEmis2iiJqg==
+  dependencies:
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
+    lodash "^4.17.21"
+
+"@apathia/apathia.shared@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.shared/-/apathia.shared-1.0.2.tgz#a60544090f2b7d74ddc1c6349c411dd1725a7d85"
+  integrity sha512-14cKhIstzHYJLLNnWgoIUoV1avLe8NCa0DKS9WywGGrypFjwcOyVItTBsjWkajPL1hUZVwr5UR684Yhy1d510g==
+  dependencies:
+    "@apathia/apathia.twind" "^1.0.2"
+    lodash "^4.17.21"
+
+"@apathia/apathia.table@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.table/-/apathia.table-1.0.3.tgz#4b8972fbe997b33a9cf48123e99277f616253f78"
+  integrity sha512-Uhl7hTq/xupdjlK5kwMAoEfxsB4NsJO1Jv9CddmcLv/SE2u7yH2S+Y1AA9fs0Tv6dvSIyF0+EeerNt9xVS0NZg==
+  dependencies:
+    "@apathia/apathia.button" "^1.0.2"
+    "@apathia/apathia.checkbox" "^1.0.2"
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.loading" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
+    lodash "^4.17.21"
+
+"@apathia/apathia.twind@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.twind/-/apathia.twind-1.0.2.tgz#75bd1a5abc9d0b62e1579511bfd9bcc48a484cca"
+  integrity sha512-5CtVsKHyhLogOqtdy+CyDpMq8mUvrCTDNnbboNsAj0NiMtw1ebtOJinvpcbHmVDsawge0NWGRfKR631sC1ZAhw==
   dependencies:
     lodash "^4.17.21"
     twind "^0.16.17"
 
-"@apathia/apathia.upload@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.upload/-/apathia.upload-1.0.1.tgz#fbb3d39345bf3354bdf3e300852a402dac4f6fd4"
-  integrity sha512-XLtYeDHMpeY+Z9BoZkqNMGSR0D/hKRPVvPqM0fR6kuGVlND7Pe4EbOqz6068oTk7HFJYlumslSiVWqU3+XVgtg==
+"@apathia/apathia.upload@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.upload/-/apathia.upload-1.0.2.tgz#36685251050b368c922bd66975486cb9b61d68a3"
+  integrity sha512-KS9gvHqaKIToIM7b6U2lYqt1FO+uPwkiR2MCg7mQBg0EQZrU90QweGCcwpF4+4b+Yv3LMrPWfZ0JP54adtxPGA==
   dependencies:
-    "@apathia/apathia.alert" "^1.0.1"
-    "@apathia/apathia.button" "^1.0.1"
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.input" "^1.0.1"
-    "@apathia/apathia.shared" "^1.0.1"
-    "@apathia/apathia.twind" "^1.0.1"
+    "@apathia/apathia.alert" "^1.0.2"
+    "@apathia/apathia.button" "^1.0.2"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.input" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
     lodash "^4.17.21"
 
-"@apathia/apathia@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia/-/apathia-1.0.2.tgz#12cc94b82f8f0d257b9102032177437eea110d45"
-  integrity sha512-vUbWuBmX8GX0g0y6TdzWpl9uWDrlr1EayjB7zRbv1+8f4J05yx9Ls647IY+ug1LVjH2ivA0Bp30WNuolH4tNCA==
+"@apathia/apathia@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia/-/apathia-1.0.3.tgz#1b15bae783c2986db2d547323b552d69e2f1d2ef"
+  integrity sha512-3ZifApodU+LKFFX9/VjDVzgTcaHbRhgslsT7UZznQFgsIk+h45Q2j1E6SPvdfhzOT3P257ezVm1t5od/oRt+pA==
   dependencies:
-    "@apathia/apathia.alert" "^1.0.1"
-    "@apathia/apathia.button" "^1.0.1"
-    "@apathia/apathia.checkbox" "^1.0.1"
-    "@apathia/apathia.collapse" "^1.0.1"
-    "@apathia/apathia.confirm" "^1.0.1"
-    "@apathia/apathia.custom-render" "^1.0.1"
-    "@apathia/apathia.form" "^1.0.1"
-    "@apathia/apathia.hooks" "^1.0.1"
-    "@apathia/apathia.icon" "^1.0.1"
-    "@apathia/apathia.input" "^1.0.1"
-    "@apathia/apathia.loading" "^1.0.1"
-    "@apathia/apathia.modal" "^1.0.1"
-    "@apathia/apathia.pagination" "^1.0.1"
-    "@apathia/apathia.radio" "^1.0.1"
-    "@apathia/apathia.select" "^1.0.1"
-    "@apathia/apathia.table" "^1.0.2"
-    "@apathia/apathia.twind" "^1.0.1"
-    "@apathia/apathia.upload" "^1.0.1"
+    "@apathia/apathia.alert" "^1.0.2"
+    "@apathia/apathia.button" "^1.0.2"
+    "@apathia/apathia.checkbox" "^1.0.2"
+    "@apathia/apathia.collapse" "^1.0.2"
+    "@apathia/apathia.confirm" "^1.0.2"
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.form" "^1.0.2"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.icon" "^1.0.2"
+    "@apathia/apathia.input" "^1.0.2"
+    "@apathia/apathia.loading" "^1.0.2"
+    "@apathia/apathia.modal" "^1.0.2"
+    "@apathia/apathia.pagination" "^1.0.2"
+    "@apathia/apathia.radio" "^1.0.2"
+    "@apathia/apathia.select" "^1.0.2"
+    "@apathia/apathia.table" "^1.0.3"
+    "@apathia/apathia.twind" "^1.0.2"
+    "@apathia/apathia.upload" "^1.0.2"
 
 "@apathia/vitepress-theme@^0.0.2":
   version "0.0.2"

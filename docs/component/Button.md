@@ -71,6 +71,7 @@
 | success   |     成功     |        boolean |  false |
 | danger    |     危险     |        boolean |  false |
 | info      |     信息     |        boolean |  false |
+| pink      |     粉色     |        boolean |  false |
 | warning   |     警告     |        boolean |  false |
 | plain     |   文字模式   |        boolean |  false |
 | active    |    激活的    |        boolean |  false |

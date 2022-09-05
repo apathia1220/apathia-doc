@@ -7,5 +7,6 @@
     <BaseButton danger round>danger</BaseButton>
     <BaseButton info round>info</BaseButton>
     <BaseButton warning round>warning</BaseButton>
+    <BaseButton pink round>pink</BaseButton>
   </FormItem>
 </template>

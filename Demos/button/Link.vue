@@ -7,6 +7,7 @@
     <BaseButton danger :href="link">danger</BaseButton>
     <BaseButton info :href="link">info</BaseButton>
     <BaseButton warning :href="link">warning</BaseButton>
+    <BaseButton pink :href="link">pink</BaseButton>
   </FormItem>
 </template>
 
