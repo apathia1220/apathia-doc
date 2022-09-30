@@ -246,6 +246,17 @@
     "@apathia/apathia.shared" "^1.0.2"
     "@apathia/apathia.twind" "^1.0.2"
 
+"@apathia/apathia.popper@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.popper/-/apathia.popper-0.0.2.tgz#6b24f486abfc642e2fd18ce95d98806db7b5aa99"
+  integrity sha512-hNqE5LOUBQykdLpJ/XICUMtWQJdyMQvPxP+/lcvOscyB0mmhxn6tgv4GU5VxxrRtcXZqlk/XsfnreKNE5zMAlA==
+  dependencies:
+    "@apathia/apathia.custom-render" "^1.0.2"
+    "@apathia/apathia.hooks" "^1.0.2"
+    "@apathia/apathia.shared" "^1.0.2"
+    "@apathia/apathia.twind" "^1.0.2"
+    "@popperjs/core" "^2.11.6"
+
 "@apathia/apathia.radio@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@apathia/apathia.radio/-/apathia.radio-1.0.2.tgz#d9ee82ff20aad3ef61823f93747cc0670ba6121d"
@@ -274,10 +285,10 @@
     "@apathia/apathia.twind" "^1.0.2"
     lodash "^4.17.21"
 
-"@apathia/apathia.table@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia.table/-/apathia.table-1.0.3.tgz#4b8972fbe997b33a9cf48123e99277f616253f78"
-  integrity sha512-Uhl7hTq/xupdjlK5kwMAoEfxsB4NsJO1Jv9CddmcLv/SE2u7yH2S+Y1AA9fs0Tv6dvSIyF0+EeerNt9xVS0NZg==
+"@apathia/apathia.table@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia.table/-/apathia.table-1.0.4.tgz#49b3b4373978c426399bd535c869be6938f26ed6"
+  integrity sha512-ImaQ9TOx/UEKNNynSO1ya4APHDBjFiBUys1ERTetv++4aPKkcvYsckluH1eQ6XO/klZ2lIsM2zI7NGdYUORCOg==
   dependencies:
     "@apathia/apathia.button" "^1.0.2"
     "@apathia/apathia.checkbox" "^1.0.2"
@@ -310,10 +321,10 @@
     "@apathia/apathia.twind" "^1.0.2"
     lodash "^4.17.21"
 
-"@apathia/apathia@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@apathia/apathia/-/apathia-1.0.3.tgz#1b15bae783c2986db2d547323b552d69e2f1d2ef"
-  integrity sha512-3ZifApodU+LKFFX9/VjDVzgTcaHbRhgslsT7UZznQFgsIk+h45Q2j1E6SPvdfhzOT3P257ezVm1t5od/oRt+pA==
+"@apathia/apathia@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@apathia/apathia/-/apathia-1.0.5.tgz#dc47091901caca7817793ac2fdc72120a17c6173"
+  integrity sha512-OtYKKDH2JJIsHE/vHEfnu3BRS/bvGeLBvxCXPtjLLMdzuFeM0/CVp1jZ70iOU8JeS1m53CFewREhoIWxHljCEg==
   dependencies:
     "@apathia/apathia.alert" "^1.0.2"
     "@apathia/apathia.button" "^1.0.2"
@@ -328,9 +339,10 @@
     "@apathia/apathia.loading" "^1.0.2"
     "@apathia/apathia.modal" "^1.0.2"
     "@apathia/apathia.pagination" "^1.0.2"
+    "@apathia/apathia.popper" "^0.0.2"
     "@apathia/apathia.radio" "^1.0.2"
     "@apathia/apathia.select" "^1.0.2"
-    "@apathia/apathia.table" "^1.0.3"
+    "@apathia/apathia.table" "^1.0.4"
     "@apathia/apathia.twind" "^1.0.2"
     "@apathia/apathia.upload" "^1.0.2"
 
@@ -779,6 +791,11 @@
   version "1.0.0-next.21"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
+
+"@popperjs/core@^2.11.6":
+  version "2.11.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+  integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
 "@types/linkify-it@*":
   version "3.0.2"
